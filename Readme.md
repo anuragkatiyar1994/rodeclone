@@ -4,6 +4,7 @@ This is Microphone and speaker selling website.
 ---
 - This is created by Anurag katiyar
 - If you have and suggestions write to me on 'anuragkatiyar1994@gmail.com'
+- [Website live link](https://deluxe-cassata-820677.netlify.app)
 ## Core Technology used in this project
 ---
 - HTML5
