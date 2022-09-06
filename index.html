@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Rode Clone</title>
+    <link rel="stylesheet" href="input.css" />
+    <!-- Font awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="w-full bg-white h-16 fixed z-30">
+      <nav
+        class="container md:mx-auto p-4 relative flex items-center justify-between"
+      >
+        <div class="nav-left flex items-center">
+          <div class="logo w-24">
+            <img src="./images/logo-1.svg" alt="logo" />
+          </div>
+          <ul class="nav-list hidden md:flex md:gap-6 md:ml-20 text-sm">
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="#">USER GUIDES</a></li>
+            <li><a href="#">SOLUTIONS</a></li>
+            <li><a href="#">APPAREL</a></li>
+            <li><a href="#">SUPPORT</a></li>
+          </ul>
+        </div>
+        <div class="nav-right hidden md:flex items-center">
+          <div class="search-icon">
+            <i class="text-3xl font-light fas fa-search"></i>
+          </div>
+        </div>
+        <div class="menu-icon md:hidden">
+          <i class="fas fa-bars text-xl"></i>
+        </div>
+      </nav>
+      <!-- MOBILE MENU -->
+      <ul
+        class="md:hidden flex flex-col gap-5 transition-all mobile-menu text-sm p-4 bg-black w-full text-white h-72"
+      >
+        <li class="mt-4"><a href="#">PRODUCTS</a></li>
+        <li><a href="#">USER GUIDES</a></li>
+        <li><a href="#">SOLUTIONS</a></li>
+        <li><a href="#">APPAREL</a></li>
+        <li><a href="#">SUPPORT</a></li>
+        <li>
+          <a href="#"><i class="text-xl font-light fas fa-search"></i></a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section
+        class="hero h-full relative top-16"
+        style="
+          background: url(./images/hero-image-1.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 100vh;
+        "
+      >
+        <div class="container md:mx-auto p-4">
+          <div class="hero-info flex text-center flex-col h-full relative">
+            <div class="info-inner top-40 absolute md:right-12 md:top-40">
+              <div class="hero-info-img">
+                <img
+                  src="./images/hero-image-2.svg"
+                  class="w-full md:w-[30rem]"
+                  alt=""
+                />
+              </div>
+              <div class="hero-text max-w-lg md:max-w-md">
+                <h3 class="text-white text-2xl my-3">The Revolution is Here</h3>
+                <p class="text-customGray mb-6">
+                  The RØDECaster Pro II is the world's most powerful all-in-one
+                  audio solution for streamers, podcasters, musicians, and
+                  creators. Take your content to the next level.
+                </p>
+                <div class="link-wrapper">
+                  <a href="#" class="font-bold text-brightBrown uppercase"
+                    >Learn More
+                    <span class="ml-2"
+                      ><i class="fas fa-chevron-right"></i
+                    ></span>
+                  </a>
+                  <button class="btn ml-2">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================================================
+                   NTH-100 SECTION 
+      ================================================== -->
+      <section
+        class="nht-100 h-full relative top-16"
+        style="
+          background: url(./images/section-image-1.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 100vh;
+        "
+      >
+        <div class="container md:mx-auto p-4">
+          <div class="nht-100-info flex text-center flex-col h-full relative">
+            <div class="nht-100-inner top-40 absolute md:left-12 md:top-40">
+              <div class="nht-100-info-img">
+                <img
+                  src="./images/section-image-2.svg"
+                  class="w-full md:w-[30rem]"
+                  alt=""
+                />
+              </div>
+              <div class="nht-100-text max-w-lg md:max-w-md">
+                <h3 class="text-black text-2xl my-3">The Revolution is Here</h3>
+                <p class="text-gray-600 mb-6">
+                  The RØDECaster Pro II is the world's most powerful all-in-one
+                  audio solution for streamers, podcasters, musicians, and
+                  creators. Take your content to the next level.
+                </p>
+                <div class="link-wrapper">
+                  <a href="#" class="font-bold text-brightBrown uppercase"
+                    >Learn More
+                    <span class="ml-2"
+                      ><i class="fas fa-chevron-right"></i
+                    ></span>
+                  </a>
+                  <button class="btn ml-2">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================================================
+                   NT-USB SECTION 
+      ================================================== -->
+      <section
+        class="NT-USB h-full relative top-16"
+        style="
+          background: url(./images/section-image-3.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 100vh;
+        "
+      >
+        <div class="container md:mx-auto p-4">
+          <div class="NT-USB-info flex text-center flex-col h-full relative">
+            <div class="NT-USB-inner top-40 absolute md:right-12 md:top-40">
+              <div class="NT-USB-info-img">
+                <img
+                  src="./images/section-image-4.svg"
+                  class="w-full md:w-[30rem]"
+                  alt=""
+                />
+              </div>
+              <div class="NT-USB-text max-w-lg md:max-w-md">
+                <h3 class="text-white text-2xl my-3">The Revolution is Here</h3>
+                <p class="text-customGray mb-6">
+                  The RØDECaster Pro II is the world's most powerful all-in-one
+                  audio solution for streamers, podcasters, musicians, and
+                  creators. Take your content to the next level.
+                </p>
+                <div class="link-wrapper">
+                  <a href="#" class="font-bold text-brightBrown uppercase"
+                    >Learn More
+                    <span class="ml-2"
+                      ><i class="fas fa-chevron-right"></i
+                    ></span>
+                  </a>
+                  <button class="btn ml-2">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================================================
+                   WIRELESS GO SECTION 
+      ================================================== -->
+      <section
+        class="wireless-go h-full relative top-16"
+        style="
+          background: url(./images/section-image-5.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 100vh;
+        "
+      >
+        <div class="container md:mx-auto p-4">
+          <div
+            class="wireless-go-info flex text-center flex-col h-full relative"
+          >
+            <div
+              class="wireless-go-inner top-40 absolute md:right-12 md:top-40"
+            >
+              <div class="wireless-go-info-img">
+                <img
+                  src="./images/section-image-6.svg"
+                  class="w-full md:w-[30rem]"
+                  alt=""
+                />
+              </div>
+              <div class="wireless-go-text max-w-lg md:max-w-md">
+                <h3 class="text-white text-2xl my-3">The Revolution is Here</h3>
+                <p class="text-customGray mb-6">
+                  The RØDECaster Pro II is the world's most powerful all-in-one
+                  audio solution for streamers, podcasters, musicians, and
+                  creators. Take your content to the next level.
+                </p>
+                <div class="link-wrapper">
+                  <a href="#" class="font-bold text-brightBrown uppercase"
+                    >Learn More
+                    <span class="ml-2"
+                      ><i class="fas fa-chevron-right"></i
+                    ></span>
+                  </a>
+                  <button class="btn ml-2">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================================================
+                   EXPLORE SECTION 
+      ================================================== -->
+      <div class="section-heading relative top-16">
+        <h2 class="text-center text-3xl md:text-4xl pt-4 text-gray-800">
+          Explore The RØDE Range
+        </h2>
+      </div>
+      <!-- Microphone  -->
+      <section class="microphone relative top-24">
+        <div
+          class="container p-4 w-11/12 h-56 md:h-64 md:w-9/12 mx-auto"
+          style="
+            background: url(./images/section-image-7.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="microphone-image mt-20">
+            <img src="./images/section-image-9.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Interfaces & Mixer -->
+      <section class="interfaces relative top-32">
+        <div
+          class="container p-4 w-11/12 h-56 md:h-64 md:w-9/12 mx-auto"
+          style="
+            background: url(./images/section-image-8.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="interfaces-image mt-20">
+            <img src="./images/section-image-10.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Accessories -->
+      <section class="accessories relative top-40">
+        <div
+          class="container p-4 w-11/12 h-56 md:h-64 md:w-9/12 mx-auto"
+          style="
+            background: url(./images/section-image-11.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="accessories-image mt-20">
+            <img src="./images/section-image-12.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- ==================================================
+                   BLOG SECTION 
+      ================================================== -->
+      <div class="section-heading relative top-40">
+        <h2 class="text-center text-3xl md:text-4xl py-12 text-gray-800">
+          Latest From The RØDE Blog
+        </h2>
+      </div>
+      <section class="blog relative bg-gray-100 top-40 p-4">
+        <div class="container text-center gap-4 md:mx-auto grid md:grid-cols-2">
+          <!-- Ist blog -->
+          <div class="blog-wrapper bg-white md:p-4">
+            <h3 class="text-2xl md:text-3xl mb-3">
+              XLR vs USB Microphones: Which is Best for You?
+            </h3>
+            <img src="./images/blog-image-1.jpg" alt="" />
+            <p class="my-4">
+              We explore the differences between XLR and USB microphones, the
+              advantages of each and which type is best suited to your
+            </p>
+            <a href="#" class="btn my-6 inline-block">LEARN MORE</a>
+          </div>
+          <!-- 2nd blog -->
+          <div class="blog-wrapper bg-white md:p-4">
+            <h3 class="text-2xl md:text-3xl mb-3">
+              The Difference Between Large-Diaphragm and Small-Diaphragm
+              Condenser
+            </h3>
+            <img src="./images/section-image-13.jpeg" alt="" />
+            <p class="my-4">
+              We explore the difference between large- and small-diaphragm
+              condenser microphones, and what each is best used for.
+            </p>
+            <a href="#" class="btn my-6 inline-block">LEARN MORE</a>
+          </div>
+          <!-- 3rd blog -->
+          <div class="blog-wrapper bg-white md:p-4">
+            <h3 class="text-2xl md:text-3xl mb-3">
+              What is a Condenser Microphone and When to Use One
+            </h3>
+            <img src="./images/blog-image-3.jpg" alt="" />
+            <p class="my-4">
+              Learn more about the different types of condenser mics, how they
+              work and the best applications for using them.
+            </p>
+            <a href="#" class="btn my-6 inline-block">LEARN MORE</a>
+          </div>
+          <!-- 4th blog -->
+          <div class="blog-wrapper bg-white md:p-4">
+            <h3 class="text-2xl md:text-3xl mb-3">
+              Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now
+            </h3>
+            <img src="./images/blog-image-4.jpg" alt="" />
+            <p class="my-4">
+              We explore the difference between large- and small-diaphragm
+              condenser microphones, and what each is best used for.
+            </p>
+            <a href="#" class="btn my-6 inline-block">LEARN MORE</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER STARTS HERE -->
+    <footer class="p-4 relative top-60">
+      <hr />
+      <div class="container md:py-5 footer-top md:mx-auto">
+        <div class="footer-wrapper flex flex-col md:flex-row justify-between">
+          <div class="footer-logo m-auto md:m-0 my-4">
+            <img src="./images/footer-logo.svg" class="w-20 md:w-28" alt="" />
+          </div>
+          <div class="footer-top-links gap-3 sm:gap-14 flex md:gap-8">
+            <ul class="">
+              <li><h4 class="font-bold">Products</h4></li>
+              <li><a href="#">Microphones</a></li>
+              <li><a href="#">Headphones</a></li>
+              <li><a href="#">Interfaces and Mixers</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Software</a></li>
+              <li><a href="#">Apparel</a></li>
+            </ul>
+
+            <ul>
+              <li><h4 class="font-bold">Support</h4></li>
+              <li><a href="#">Contact RØDE</a></li>
+              <li><a href="#">Service Centre</a></li>
+              <li><a href="#">Warranty</a></li>
+              <li><a href="#">Where to Buy</a></li>
+              <li><a href="#">Software</a></li>
+            </ul>
+
+            <ul>
+              <li><h4 class="font-bold">Company</h4></li>
+              <li><a href="#">About RØDE</a></li>
+              <li><a href="#">News and Info</a></li>
+              <li><a href="#">New Oppurtunities</a></li>
+              <li><a href="#">Manage Your account</a></li>
+              <li><a href="#">Create Account</a></li>
+            </ul>
+          </div>
+          <div class="news-letters mt-4 sm:mt-0">
+            <h2 class="text-2xl md:text-3xl font-semibold">
+              Subscribe to our latest <br />news and offers
+            </h2>
+            <a href="#" class="btn my-4 inline-block">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="container pt-4 mx-auto footer-bottom flex justify-between items-center"
+      >
+        <div class="copyright">
+          &#169;
+          <span class="inline-block">2022 RØDE All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

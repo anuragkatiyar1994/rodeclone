@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobile-menu {
+  @apply -translate-y-4.25;
+}
+.mobile-menu.show {
+  @apply -translate-y-0;
+}
+
+.btn {
+  @apply bg-brightBrown text-white py-2 px-8 hover:text-brightBrown hover:bg-white transition-all text-center uppercase rounded-full border border-lightBrown;
+}
